@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{CF9E3143-7952-4D4C-B0A7-0F20089247CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{CF9E3143-7952-4D4C-B0A7-0F20089247CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioProposto_Interfaces", "ExercicioProposto_Interfaces\ExercicioProposto_Interfaces.csproj", "{1A956B08-EC2A-46A8-AB6E-806ED048C03F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herdar_CumprirContrato", "Herdar_CumprirContrato\Herdar_CumprirContrato.csproj", "{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaMultipla_ProblemaDiamante", "HerancaMultipla_ProblemaDiamante\HerancaMultipla_ProblemaDiamante.csproj", "{5374868F-208F-450E-B1DA-3FB654C31321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceComparable", "InterfaceComparable\InterfaceComparable.csproj", "{3088149D-FBC7-4FAC-A5E9-B2D182627337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,32 @@ Global
 		{CF9E3143-7952-4D4C-B0A7-0F20089247CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF9E3143-7952-4D4C-B0A7-0F20089247CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF9E3143-7952-4D4C-B0A7-0F20089247CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A956B08-EC2A-46A8-AB6E-806ED048C03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A956B08-EC2A-46A8-AB6E-806ED048C03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A956B08-EC2A-46A8-AB6E-806ED048C03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A956B08-EC2A-46A8-AB6E-806ED048C03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5374868F-208F-450E-B1DA-3FB654C31321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5374868F-208F-450E-B1DA-3FB654C31321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5374868F-208F-450E-B1DA-3FB654C31321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5374868F-208F-450E-B1DA-3FB654C31321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3088149D-FBC7-4FAC-A5E9-B2D182627337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3088149D-FBC7-4FAC-A5E9-B2D182627337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3088149D-FBC7-4FAC-A5E9-B2D182627337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3088149D-FBC7-4FAC-A5E9-B2D182627337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF9E3143-7952-4D4C-B0A7-0F20089247CC} = {B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}
+		{1A956B08-EC2A-46A8-AB6E-806ED048C03F} = {B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}
+		{1FB6356E-8D59-4B92-BEA0-4B99F2FA3599} = {B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}
+		{5374868F-208F-450E-B1DA-3FB654C31321} = {B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}
+		{3088149D-FBC7-4FAC-A5E9-B2D182627337} = {B7785CFB-C4F5-469D-93D5-6EA0D7F1143C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6280F35B-2436-41C8-AEB4-926792EEE489}
