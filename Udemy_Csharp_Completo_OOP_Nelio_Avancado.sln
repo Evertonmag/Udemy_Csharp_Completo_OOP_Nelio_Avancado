@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary_SortedDictionary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioPropostoDictonary", "ExercicioPropostoDictonary\ExercicioPropostoDictonary.csproj", "{8182842F-E18E-4684-B5F1-5B37D3CC9037}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopicosEspeciaisEmCSharpPT2", "TopicosEspeciaisEmCSharpPT2", "{F539799C-4F7A-49C4-8C47-B5E93ED99AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions_Methods", "Extensions_Methods\Extensions_Methods.csproj", "{60F6D03D-8008-4EC3-BBA6-532B274D6116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,10 @@ Global
 		{8182842F-E18E-4684-B5F1-5B37D3CC9037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8182842F-E18E-4684-B5F1-5B37D3CC9037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8182842F-E18E-4684-B5F1-5B37D3CC9037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F6D03D-8008-4EC3-BBA6-532B274D6116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F6D03D-8008-4EC3-BBA6-532B274D6116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F6D03D-8008-4EC3-BBA6-532B274D6116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F6D03D-8008-4EC3-BBA6-532B274D6116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +117,7 @@ Global
 		{BEFFFDFA-C5B1-468F-8BF6-74521903FF9A} = {3CC8A3F8-7F37-4A8C-A253-AF4A2C06C861}
 		{6BB1EB73-EFF9-4625-AA0A-EF20A6F19F55} = {3CC8A3F8-7F37-4A8C-A253-AF4A2C06C861}
 		{8182842F-E18E-4684-B5F1-5B37D3CC9037} = {3CC8A3F8-7F37-4A8C-A253-AF4A2C06C861}
+		{60F6D03D-8008-4EC3-BBA6-532B274D6116} = {F539799C-4F7A-49C4-8C47-B5E93ED99AEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6280F35B-2436-41C8-AEB4-926792EEE489}
